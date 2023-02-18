@@ -1,0 +1,53 @@
+.container-todo-list{
+    width: 50vw;
+    margin: 0 auto;
+
+    .header-fnc-create-todo{
+        border: 1px solid #80808062;
+        padding: 10px 5px;
+
+        input,
+        button{
+            border: none;
+            padding: 5px;
+            outline: none;
+            border-radius: 5px;
+    
+        }
+        input {
+           border: 1px solid #80808062;
+
+           &.description {
+            margin: 0 10px;
+           }
+        }
+
+    
+        button{
+            background-color: #68a2f4;
+            color: white;
+            cursor:pointer;
+        }
+    }
+
+}
+.fnc-mask-clear{
+    text-align: right;
+    margin: 15px 0;
+
+    button{
+        padding: 10px;
+        color: white;
+        border: none;
+        border-radius: 4px;
+
+        &.clear-btn{
+            background-color: #fa3d3d;
+            margin-right: 5px;
+
+        }
+        &.mask-btn{
+            background-color: #0aad20;
+        }
+    }
+}

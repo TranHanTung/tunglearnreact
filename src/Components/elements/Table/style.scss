@@ -1,0 +1,56 @@
+.table-common{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gainsboro;
+
+    .row{
+        flex:1;
+
+    }
+    
+    .table-cell-title,
+    .cell {
+        padding: 5px;
+        border-left: 1px solid gainsboro;
+    }
+    .name,
+    .status {
+        width: 80px;
+    }
+    .status{
+        margin-left: auto;
+    }
+    .action{
+        width: 100px;
+    }
+
+    .table-header{
+        display: flex;
+        font-weight: 500;
+        border-bottom: 1px solid gainsboro;
+    }
+
+    .table-body{
+        .table-row{
+            display: flex;
+            .edit{
+                color:white;
+                padding: 5px;
+                border-radius: 5px;
+                border: none;
+                background-color: #68a2f4;
+                margin-right: 5px;
+            }
+
+            .delete {
+                color:white;
+                padding: 5px;
+                border-radius: 5px;
+                border: none;
+                background-color: #fa3d3d;
+            }
+        }
+        
+    }
+
+}
